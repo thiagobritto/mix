@@ -1,5 +1,5 @@
-import produtos from '/database/db_produtos.js';
-import { str, dateFormat } from '/assets/scripts/utils.js';
+import produtos from '../../database/db_produtos.js';
+import { str, dateFormat } from 'utils.js';
 
 window.mobileCheck = function () {
     let check = false;
