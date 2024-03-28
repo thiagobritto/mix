@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanzia lanches</title>
+    <link rel="stylesheet" href="/assets/styles/index.css">
+    <link rel="stylesheet" href="/assets/styles/cardapio.css">
+</head>
+
+<body>
+    <header class="top">
+    </header>
+    <div>
+        <img class="logo" src="assets/images/small/logo_190x120.png" alt="">
+    </div>
+    <div class="cart open-cart">
+        <div class="interator">0</div>
+    </div>
+    <div id="app">
+        <!-- CONTENT -->
+    </div>
+    <div class="cart-modal">
+        <div class="cart-content">
+            <h2 class="title-font cart-title">Meu carrinho</h2>
+            <div class="cart-button-close closed"></div>
+            <table class="tabble-cart">
+                <!-- CONTENT -->
+            </table>
+            <div class="sub-total">
+                <span>Total</span>
+                <span id="total">R$ 0,00</span>
+            </div>
+            <h3 class="title-font title-payment">Pagamento</h3>
+            <div class="payment">
+                <div class="payment-method payment-target" data-method="0">
+                    <img width="22" src="assets/images/icons/cash.png" alt="">
+                    <span>Dinheiro</span>
+                </div>
+                <div class="payment-method" data-method="1">
+                    <img width="22" src="assets/images/icons/pix.png" alt="">
+                    <span>Pix</span>
+                </div>
+                <div class="payment-method" data-method="2">
+                    <img width="22" src="assets/images/icons/card.png" alt="">
+                    <span>Cartão</span>
+                </div>
+            </div>
+            <h3 class="title-font title-delivery">Entrega</h3>
+            <textarea class="txt-input-cart" id="txt-endereco" rows="4">Rua...</textarea>
+            <h3 class="title-font title-obsevation">Observações</h3>
+            <textarea class="txt-input-cart" id="txt-observacoes" rows="4">***</textarea>
+            <div class="btn-box">
+                <button class="btn btn-primary" id="btn-checkout">Fazer pedido</button>
+            </div>
+        </div>
+        <div class="modal-nome">
+            <div>
+                <h2 class="title-font">Quem esta comprando?</h2>
+                <input type="text" id="name" placeholder="Nome">
+                <span class="msg-alert"></span>
+                <div class="buttons">
+                    <button class="btn" id="modal-nome-close">Cancelar</button>
+                    <button class="btn btn-primary" id="modal-nome-send">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/assets/scripts/index.js"></script>
+</body>
+
+</html>

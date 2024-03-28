@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --one: #000000ff;
+    --two: #fbe500ff;
+    --three: #e56d1aff;
+    --four: #78bb74ff;
+    --bk-body: #ffffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--bk-body);
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.title-font {
+    font-weight: 700;
+}
+
+.btn {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: #f9f9f9;
+    color: #000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    filter: brightness(95%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn-primary {
+    background-color: var(--four);
+    color: #fff;
+}
+
+.msg-alert {
+    display: block;
+    color: red;
+    margin: 5px 0;
+}
