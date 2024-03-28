@@ -291,10 +291,10 @@ const cart = {
         const text = window.encodeURIComponent(msg);
 
         if (mobileCheck()) {
-            window.open('https://api.whatsapp.com/send?phone=558499905176&text=' + text);
+            window.open('https://api.whatsapp.com/send?phone=558488732714&text=' + text);
             closeCart();
         } else {
-            window.open('https://web.whatsapp.com/send?phone=558499905176&text=' + text);
+            window.open('https://web.whatsapp.com/send?phone=558488732714&text=' + text);
             closeCart()
         }
     }
