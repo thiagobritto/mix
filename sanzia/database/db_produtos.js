@@ -19,6 +19,12 @@ export default {
             img: "assets/images/small/hamburger.png",
         },
         {
+            title: "X-Bacon",
+            price: "13.00",
+            desc: "Carne, ovo, bacon, queijo, presunto, alface, tomate e batata palha.",
+            img: "assets/images/small/hamburger.png",
+        },
+        {
             title: "X-Calabresa",
             price: "13.00",
             desc: "Carne, ovo, queijo, presunto, calabresa, alface, tomate e batata palha.",

@@ -73,5 +73,15 @@ var url = URL.createObjectURL(blob);
 // agora você pode usar a URL em qualquer contexto em que URLs regulares podem ser usadas, por exemplo: img.src, etc.
 
 
-console.log(url);
+function myFunc(prom, call) {
 
+}
+
+
+myFunc( function(res){
+    myFuncElse(res, function(newRes){
+        myFuncFinal(newRes, function(fimRes){
+            console.log("Got final res"+ fimRes);
+        }, call);
+    }, call);
+}, call);
