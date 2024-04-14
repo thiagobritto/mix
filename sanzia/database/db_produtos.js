@@ -97,9 +97,15 @@ export default {
             img: "assets/images/small/acai.png",
         },
         {
-            title: "Guaraná  da amazonia",
-            price: "15.00",
-            desc: "Estimulante, antioxidante, anti-inflamatória, aumenta o gasto calórico e melhora a pressão sanguínea,",
+            title: "Gua. da Ama. 400ml",
+            price: "8.00",
+            desc: "O Guaraná  da Amazonia é estimulante, antioxidante, anti-inflamatória, aumenta o gasto calórico e melhora a pressão.",
+            img: "assets/images/small/guarana_amazonia.png",
+        },
+        {
+            title: "Gua. da Ama. 500ml",
+            price: "10.00",
+            desc: "O Guaraná  da Amazonia é estimulante, antioxidante, anti-inflamatória, aumenta o gasto calórico e melhora a pressão.",
             img: "assets/images/small/guarana_amazonia.png",
         },
     ],
